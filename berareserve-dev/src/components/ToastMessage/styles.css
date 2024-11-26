@@ -1,0 +1,40 @@
+.toast-body,
+Toastify__toast-container .toast-conatiner {
+  padding: 0px;
+  margin: 2px;
+}
+
+.pending {
+  background: #764a20;
+}
+
+.confirmed {
+  background: linear-gradient(104.23deg, #96603f 17.69%, #764a20 97.86%);
+}
+
+.sell_success {
+  /* background: linear-gradient(104.23deg, #344B41 17.69%, #0F2018 97.86%); */
+  background: #be7143;
+}
+
+.transaction_success {
+  /* background: linear-gradient(104.23deg, #344B41 17.69%, #0F2018 97.86%); */
+  background: #be7143;
+}
+
+.failed {
+  background: linear-gradient(102.78deg, #6c6863 10.88%, #45321a 100.86%),
+    linear-gradient(0deg, #ea7962, #ea7962);
+}
+
+@media (min-width: 640px) {
+  .Toastify__toast-container {
+    width: 600px !important;
+  }
+}
+
+/* CSV */
+/*f8cf1e,20110e,eee8e2,be7143,764a20,6c6863,45321a,8c8c84,514c41*/
+
+/* Array */
+/*["f8cf1e","20110e","eee8e2","be7143","764a20","6c6863","45321a","8c8c84","514c41"]*/
