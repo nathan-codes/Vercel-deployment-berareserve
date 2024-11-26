@@ -3,7 +3,7 @@ import { bartioTestnet } from "./bartioChain";
 
 export const rainbowConfig = getDefaultConfig({
   appName: "Bera Reserve",
-  projectId: import.meta.env.VITE_RAINBOW_KIT_PROJECT_ID || "",
+  projectId: "19996053d75b04fec6cac663e09b2d30" || "",
   chains: [bartioTestnet],
   appUrl: "",
 });
